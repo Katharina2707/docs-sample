@@ -8,7 +8,7 @@ The API allows you to:
 
 It returns and accepts data in JSON format and follows standard HTTP response codes.
 
-See Getting Started Guide for how to authenticate and make the first API request
+See guides/getting-started.md for how to authenticate and make the first API request
 
 
 ## 📂 Endpoints
