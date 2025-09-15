@@ -1,20 +1,27 @@
 # Users Guide
 
-This document contains information about the endpoints and the components of the **User API**.
+This document contains information about the endpoints and the User schema of the **User API**.
 
 
 ## Endpoints
 
 ### `GET /v1/users`
-This endpoint returns a complete list of users in the system, including each user's ID, name, and email address.
+- `GET`: List all users
+     - `summary`: List all users
+     - `responses`:
+       - `200 OK`: Returns a JSON array of User objects.
+
+
 
 ### `POST /v1/users`
-This endpoint lets you add a new user to the system.
-To create a new user, follow the User schema, including all required fields such as ID, name and email address.
-You will receive a confirmation when the user was successfully added.
+- `POST`: Create a new user
+     - `summary`: Create a new user
+     -  `requestBody`:
+        - `application/json`: Expects a User object.
+     - `responses`:
+        - `201 Created`: Indicates successful creation.
 
-
-#### `User` Schema
+## User schema
 ```yaml
 type: object
 properties:
