@@ -9,5 +9,11 @@ If your API requires authentication, you will need to include an Authorization h
 ```yaml
 Authorization: Bearer YOUR_API_TOKEN
 ```
-Replace 'YOUR_API_TOKEN' with your actual token.
+Replace `YOUR_API_TOKEN` with your actual token.
 
+## Make your first API request
+### Retrieve all users
+Use `GET /v1/users` to retrieve a list of all users.
+
+### Create a new user
+Use `POST /v1/users` to add a new user.
