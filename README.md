@@ -1,6 +1,6 @@
 # User API
 
-Welcome to the **User API** repository! This project provides a RESTful interface for managing user data, built using the OpenAPI 3.0 specification.
+Welcome to the **User API** repository. This project provides a RESTful interface for managing user data, built using the OpenAPI 3.0 specification.
 
 The API allows you to:
 - **List all users** (`GET /v1/users`)
@@ -8,10 +8,13 @@ The API allows you to:
 
 It returns and accepts data in JSON format and follows standard HTTP response codes.
 
-See guides/getting-started.md for how to authenticate and make the first API request
+## Getting Started
 
+To learn how to authenticate and make your first API request, see the **Getting Started Guide**.
 
-## 📂 Endpoints
+## Endpoints
+
+To learn about the endpoints and the components, see the **Users Guide**.
 
 ### `GET /v1/users`
 - **Summary**: Retrieve a list of all users.
