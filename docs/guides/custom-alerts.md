@@ -39,7 +39,7 @@ You can set up alerts for CPU usage, memory, and network thresholds. The feature
 
 ## Advanced configuration: Compound Conditions
 
-Experienced users can create alerts based on **compound conditions**, combining multiple metrics using logical operators. For example:  
+Experienced users can create alerts based on **Compound Conditions**, combining multiple metrics using logical operators. For example:  
 
 `Trigger alert if CPU Usage > 80% AND Memory Usage > 70%`
 
