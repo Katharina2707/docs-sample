@@ -1,12 +1,11 @@
 # Getting Started with the User API
 
-This document helps you authenticate and make your first API request to retrieve or create user data.
+This document explains how you can authenticate and make your first API request to retrieve or create user data.
 
 ## Authentication
 
 In order to be able to use the User API, you will need to authenticate yourself.
-Create an API Key and provide a label for it, so that you can easily recognize it later.
-Keep your API Key somewhere safe and do not share it with anyone.
+Create an API Key, keep it somewhere safe and do not share it with anyone.
 
 To perform any API call, you will need to provide your API Key in an authentication header.
 The format is the following:
