@@ -1,12 +1,11 @@
 # Erste Schritte mit der User API
 
-Dieses Dokument hilft Ihnen, sich zu authentifizieren und Ihre erste API-Anfrage zu stellen, um Benutzerdaten abzurufen oder zu erstellen.
+Dieses Dokument erklärt Ihnen, wie Sie sich authentifizieren und Ihre erste API-Anfrage stellen können, um Benutzerdaten abzurufen oder zu erstellen.
 
 ## Authentifizierung
 
 Um die User API verwenden zu können, müssen Sie sich authentifizieren.
-Erstellen Sie einen API-Schlüssel mit einem Label, damit Sie ihn später leicht wiedererkennen können.
-Bewahren Sie Ihren API-Schlüssel sicher auf und teilen Sie ihn mit niemandem.
+Erstellen Sie einen API-Schlüssel, bewahren Sie ihn sicher auf und teilen Sie ihn mit niemandem.
 
 Für jede API-Anfrage müssen Sie Ihren API-Schlüssel in einem Authentifizierungs-Header angeben.
 Das Format sieht wie folgt aus:
@@ -23,7 +22,7 @@ curl -X GET https://your-api-domain.com/v1/users \
 ```
 
 ### Einen neuen Benutzer erstellen
-Verwenden Sie `POST /v1/users`, um einen neuen Benutzer hinzuzufügen. Um einen neuen Benutzer zu erstellen, folgen Sie dem [User schema](../reference/users.md#User-schema) und geben Sie alle erforderlichen Felder wie ID, Name und E-Mail-Adresse an.
+Verwenden Sie `POST /v1/users`, um einen neuen Benutzer hinzuzufügen. Um einen neuen Benutzer zu erstellen, folgen Sie dem [User schema](../reference/users.md#User-schema) und geben Sie alle erforderlichen Felder wie Benutzer-ID, Name und E-Mail-Adresse an.
 Auch hier müssen Sie Ihren API-Schlüssel angeben. Zum Beispiel:
 
 ```yaml
@@ -42,7 +41,7 @@ Sie erhalten eine Bestätigung, wenn der Benutzer erfolgreich hinzugefügt wurde
 
 **Note:**
 - Proper nouns stay english (User API, User schema)
-- Established english words can stay english (Label)
+- Established english words for developers stay english (Header)
 - Code and filepaths stay english (`X-API-Key: publicprefix.secret`, `POST /v1/users`)
 
 
