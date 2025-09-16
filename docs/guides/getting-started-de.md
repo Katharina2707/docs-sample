@@ -1,11 +1,11 @@
-# Erste Schritte mit der Benutzer-API
+# Erste Schritte mit der User API
 
 Dieses Dokument hilft Ihnen, sich zu authentifizieren und Ihre erste API-Anfrage zu stellen, um Benutzerdaten abzurufen oder zu erstellen.
 
 ## Authentifizierung
 
-Um die Benutzer-API verwenden zu können, müssen Sie sich authentifizieren.
-Erstellen Sie einen API-Schlüssel und vergeben Sie eine Bezeichnung, damit Sie ihn später leicht wiedererkennen können.
+Um die User API verwenden zu können, müssen Sie sich authentifizieren.
+Erstellen Sie einen API-Schlüssel mit einem Label, damit Sie ihn später leicht wiedererkennen können.
 Bewahren Sie Ihren API-Schlüssel sicher auf und teilen Sie ihn mit niemandem.
 
 Für jede API-Anfrage müssen Sie Ihren API-Schlüssel in einem Authentifizierungs-Header angeben.
@@ -16,14 +16,14 @@ X-API-Key: publicprefix.secret
 
 ## Ihre erste API-Anfrage stellen
 ### Alle Benutzer abrufen
-Verwenden Sie GET /v1/users, um eine Liste aller Benutzer abzurufen, einschließlich der Benutzer-ID, des Namens und der E-Mail-Adresse. Sie müssen auch Ihren API-Schlüssel angeben:
+Verwenden Sie `GET /v1/users`, um eine Liste aller Benutzer abzurufen, einschließlich der Benutzer-ID, des Namens und der E-Mail-Adresse. Sie müssen auch Ihren API-Schlüssel angeben:
 ```yaml
 curl -X GET https://your-api-domain.com/v1/users \
   -H "X-API-Key: publicprefix.secret"
 ```
 
 ### Einen neuen Benutzer erstellen
-Verwenden Sie POST /v1/users, um einen neuen Benutzer hinzuzufügen. Um einen neuen Benutzer zu erstellen, folgen Sie dem Benutzerschema und geben Sie alle erforderlichen Felder wie ID, Name und E-Mail-Adresse an.
+Verwenden Sie `POST /v1/users`, um einen neuen Benutzer hinzuzufügen. Um einen neuen Benutzer zu erstellen, folgen Sie dem User schema und geben Sie alle erforderlichen Felder wie ID, Name und E-Mail-Adresse an.
 Auch hier müssen Sie Ihren API-Schlüssel angeben. Zum Beispiel:
 
 ```yaml
@@ -40,6 +40,9 @@ Sie erhalten eine Bestätigung, wenn der Benutzer erfolgreich hinzugefügt wurde
 
 
 
-
+**Note:**
+- Proper nouns stay english (User API, User schema)
+- Established english words can stay english (Label)
+- Code and filepaths stay english (`X-API-Key: publicprefix.secret`, `POST /v1/users`)
 
 
