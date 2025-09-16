@@ -2,7 +2,7 @@
 
 **Version**: 1.0.0 
 
-The User API allows you to list, create, and manage users. It follows RESTful principles and returns JSON-formatted responses.
+The User API allows you to list and create users. It follows RESTful principles and returns JSON-formatted responses.
 
 ## Endpoints
 
@@ -10,11 +10,11 @@ The User API allows you to list, create, and manage users. It follows RESTful pr
 - Description: Retrieve a list of all users.
 - Method: `GET`
 - Response: `200 OK` – Returns an array of user objects.
-- Example curl request:
+- Example `curl` request:
 ```yaml
 curl -X GET https://your-api-domain.com/v1/users
 ```
-- Response Schema:
+- Response schema:
 ```yaml
 [
   {
@@ -28,7 +28,7 @@ curl -X GET https://your-api-domain.com/v1/users
 ### `POST /v1/users`
 - Description: Create a new user.
 - Method: `POST`
-- Request Body:
+- Request body:
 ```yaml
 {
   "id": "string",
@@ -37,7 +37,7 @@ curl -X GET https://your-api-domain.com/v1/users
 }
 ```
 - Response: `201 Created` – Returns the created user object.
-- Example curl request:
+- Example `curl` request:
 ```yaml
 curl -X POST https://your-api-domain.com/v1/users \
   -H "Content-Type: application/json" \
@@ -60,7 +60,7 @@ properties:
     description: Full name of the user            #Suggestion to add a description
   email:                                          #Suggestion to add email
     type: string
-    format: email                                 #Suggestion to add format to indicates that the string should follow a valid email format
+    format: email                                 #Suggestion to add format to indicate that the string should follow a valid email format
     description: email address of the user
 ```
 
