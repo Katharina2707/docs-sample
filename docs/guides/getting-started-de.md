@@ -23,7 +23,7 @@ curl -X GET https://your-api-domain.com/v1/users \
 ```
 
 ### Einen neuen Benutzer erstellen
-Verwenden Sie `POST /v1/users`, um einen neuen Benutzer hinzuzufügen. Um einen neuen Benutzer zu erstellen, folgen Sie dem User schema und geben Sie alle erforderlichen Felder wie ID, Name und E-Mail-Adresse an.
+Verwenden Sie `POST /v1/users`, um einen neuen Benutzer hinzuzufügen. Um einen neuen Benutzer zu erstellen, folgen Sie dem [User schema](../reference/users.md#User-schema) und geben Sie alle erforderlichen Felder wie ID, Name und E-Mail-Adresse an.
 Auch hier müssen Sie Ihren API-Schlüssel angeben. Zum Beispiel:
 
 ```yaml
