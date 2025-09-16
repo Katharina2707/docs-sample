@@ -24,7 +24,7 @@ curl -X GET https://your-api-domain.com/v1/users \
 ```
 
 ### Create a new user
-Use `POST /v1/users` to add a new user. To create a new user, follow the <link>User schema</link>, including all required fields such as ID, name and email address.
+Use `POST /v1/users` to add a new user. To create a new user, follow the [User schema](docs/reference/users.md), including all required fields such as ID, name and email address.
 You will need to enter your API Key as well. For example:
 ```yaml
 curl -X POST https://your-api-domain.com/v1/users \
