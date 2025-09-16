@@ -11,9 +11,9 @@ It returns and accepts data in JSON format and follows standard HTTP response co
 
 ## Getting Started
 
-To learn how to authenticate and make your first API call, see **Getting Started with the User API**.
+To learn how to authenticate and make your first API call, see [Getting started with the User API](guides/getting-started.md).
 
 ## API Reference
 
-For detailed information about endpoints, request/response formats, the User schema, and authentication, see **User API Reference**.
+For detailed information about endpoints, request/response formats, the User schema, and authentication, see [User API Reference](reference/users.md).
 
