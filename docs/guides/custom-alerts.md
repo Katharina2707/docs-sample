@@ -1,6 +1,6 @@
 # Custom Alerts User Guide
 
-Welcome to the Custom Alerts feature in the cloud dashboard! This guide will help you set up your first alert and explore advanced configuration options.
+Welcome to the **Custom Alerts** feature in the cloud dashboard! This guide will help you set up your first alert and explore advanced configuration options.
 
 You can set up alerts for CPU usage, memory, and network thresholds. The feature is designed to be intuitive for beginners and powerful for advanced users. 
 
